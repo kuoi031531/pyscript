@@ -6,7 +6,7 @@ def write(name, desc):
 
 # 하단 버튼 링크 연결 함수
 def button(*args):
-  link = "https://www.youtube.com/watch?v=IZTGFF2rwtk/" # https:// 꼭 붙여야 연결됩니다!
+  link = "https://www.youtube.com/watch?v=K7rffkZ4s7w/" # https:// 꼭 붙여야 연결됩니다!
   webbrowser.open(link)
 
 # 배경 색깔 설정 함수
@@ -26,8 +26,8 @@ background(colors)
 
 # 이름과 설명, 버튼에 들어갈 글 설정
 write("name", "성준오")
-write("description", "대안학교 2학년")
-write("button", "몰?루")
+write("description", "대안학교 1학년")
+write("button", "내가 좋아하는 영상")
 
 # 상세설명에 들어갈 제목과 글 설정
 informations = {
